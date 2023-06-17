@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/row_shape"
+    android:layout_marginTop="5dip">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_bike"
+        android:id="@+id/sportIV"
+        android:padding="5dip"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateTV"
+        android:paddingLeft="5dip"
+        android:layout_toRightOf="@id/sportIV"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/dateTV">
+        <ImageView android:id="@+id/previous"
+            android:src="@mipmap/ic_left_arrow"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+        <ImageView android:id="@+id/next"
+            android:src="@mipmap/ic_right_arrow"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+        <com.quantrity.ant2net.ServicesHorizontalScrollView
+            android:id="@+id/hview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/next"
+            android:layout_toRightOf="@id/previous"
+            android:scrollbars="none"
+            android:fillViewport="true">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/row_shape"
+                    android:id="@+id/emFL">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:padding="5dip"
+                        android:src="@mipmap/ic_gmail"
+                        android:id="@+id/emIV" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_ok"
+                        android:id="@+id/em2IV"
+                        android:layout_gravity="right|bottom"/>
+                </FrameLayout>
+
+
+                <View
+                    android:id="@+id/fillerView"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </com.quantrity.ant2net.ServicesHorizontalScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

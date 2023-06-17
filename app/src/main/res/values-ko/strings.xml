@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="actionbar_battery_abbreviation">배터리</string>
+	<string name="activitylist_contextmenu_delete">삭제</string>
+	<string name="activitylist_contextmenu_reset_upload_status">업로드 상태 리셋</string>
+	<string name="activitylist_contextmenu_select_action">동작 선택</string>
+	<string name="activitylist_contextmenu_upload_to">여기에 업로드 <xliff:g id="name">%1$s</xliff:g></string>
+	<string name="activitylist_contextmenu_upload_to_all">모든 서비스들에 업로드</string>
+	<string name="ant_plugins_service">ANT+ Plugins Service</string>
+	<string name="ant_radio_service">ANT Radio Service</string>
+	<string name="ant_usb_service">ANT USB Service</string>
+	<string name="antFsProgressDialog_authenticating">인증중</string>
+	<string name="antFsProgressDialog_downloading">다운로드중</string>
+	<string name="antFsProgressDialog_no_internet">인터넷에 접속되어있지 않습니다. 클릭 <b><xliff:g id="button">%1$s</xliff:g></b> 업로드 작업이 가능해질때.</string>
+	<string name="antFsProgressDialog_pairing_feedback">페어링을 허용해야합니다. 본인의 기기 화면에 체크해 주시기 바랍니다.</string>
+	<string name="antFsProgressDialog_requesting_download">다운로드를 요청하는중</string>
+	<string name="antFsProgressDialog_requesting_link">링크를 요구합니다.</string>
+	<string name="antFsProgressDialog_sending_request">요청신호 보내는중</string>
+	<string name="antFsProgressDialog_user_pairing_requested">페어링이 요구됨</string>
+	<string name="app_name">ANT2net</string>
+    <string name="garmin_connect_invalid_password">당신의 가민 컨넥트 비밀번호가 가민의 새로운 정책에 맞지\n 않습니다. 비밀번호를 업데이트 하십시오.</string>
+	<string name="menu_reset">연결 리셋</string>
+	<string name="menu_settings">설정</string>
+	<string name="msg_first_time">이번이 이 앱의 첫 실행입니다. 당신이 동기화 하려는 모든 계정을 설정해야 합니다.</string>
+	<string name="msg_first_upload">이번이 이 앱의 첫번째 사용이라면, 당신은 이전에 서비스들로 업로드했던 많은 액티비티(Activities)들을 다시 업로드 해야 할수도 있읍니다. 당신이 설정해놓은 서비스들에 다운로드한 모든 액티비티를 업로드 하시겠습니까?</string>
+	<string name="msg_problem_ant_permission_disabled">ANT Radio Service has no permission to use ANT hardware. Please, enable it to communicate with your watch.</string>
+	<string name="msg_problem_service_not_found"><b><xliff:g id="name">%1$s</xliff:g></b> 발견할수 없습니다.\n구글 플레이로부터 다시 설치하시기 바랍니다.</string>
+	<string name="preferences_delete_all">모든 액티비티들 삭제</string>
+	<string name="preferences_email">이메일</string>
+	<string name="preferences_email_send_to">보낼곳</string>
+	<string name="preferences_folder_in_disk">디스크에 폴더</string>
+	<string name="preferences_forget_devices">기기 삭제</string>
+	<string name="preferences_invalid_email">유효하지 않은 이메일 주소입니다</string>
+	<string name="preferences_local_storage">따로 저장</string>
+	<string name="preferences_measurement_units">측정 단위</string>
+	<string name="preferences_measurement_units_metric">측정단위</string>
+	<string name="preferences_measurement_units_statute">상태</string>
+</resources>

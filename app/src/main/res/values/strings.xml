@@ -1,0 +1,37 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="actionbar_battery_abbreviation">Batt</string>
+    <string name="activitylist_contextmenu_delete">Delete</string>
+    <string name="activitylist_contextmenu_reset_upload_status">Reset upload status</string>
+    <string name="activitylist_contextmenu_select_action">Select the action</string>
+    <string name="activitylist_contextmenu_upload_to">Upload to <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="activitylist_contextmenu_upload_to_all">Upload to all services</string>
+    <string name="ant_plugins_service">ANT+ Plugins Service</string>
+    <string name="ant_radio_service">ANT Radio Service</string>
+    <string name="ant_usb_service">ANT USB Service</string>
+    <string name="antFsProgressDialog_authenticating">Authenticating</string>
+    <string name="antFsProgressDialog_downloading">Downloading</string>
+    <string name="antFsProgressDialog_no_internet">No internet connection. Click <b><xliff:g id="button">%1$s</xliff:g></b> when available for proceeding to upload.</string>
+    <string name="antFsProgressDialog_pairing_feedback">You need to allow pairing. Please, check your device\'s screen.</string>
+    <string name="antFsProgressDialog_requesting_download">Requesting download</string>
+    <string name="antFsProgressDialog_requesting_link">Requesting link</string>
+    <string name="antFsProgressDialog_sending_request">Sending request</string>
+    <string name="antFsProgressDialog_user_pairing_requested">Pairing requested</string>
+    <string name="app_name">ANT2net</string>
+    <string name="garmin_connect_invalid_password">Your Garmin Connect password is no longer valid according to Garmin\'s new policy.\n\nPlease update it.</string>
+    <string name="menu_reset">Reset connection</string>
+    <string name="menu_settings">Settings</string>
+    <string name="msg_first_time">This is the first time you use this app. You need to configure all the accounts you want to synchronize.</string>
+    <string name="msg_first_upload">As this is the first time you use this app, you may have downloaded many activities you have already uploaded.\nWould you like to upload all the downloaded activities to the configured services?</string>
+    <string name="msg_problem_ant_permission_disabled">ANT Radio Service has no permission to use ANT hardware. Please, enable it to communicate with your watch.</string>
+    <string name="msg_problem_service_not_found"><b><xliff:g id="name">%1$s</xliff:g></b> not found.\nPlease install it from Google Play.</string>
+    <string name="preferences_delete_all">Delete all activities</string>
+    <string name="preferences_email">Email</string>
+    <string name="preferences_email_send_to">Send to</string>
+    <string name="preferences_folder_in_disk">Folder in disk</string>
+    <string name="preferences_forget_devices">Forget devices</string>
+    <string name="preferences_invalid_email">Invalid email address</string>
+    <string name="preferences_local_storage">Local storage</string>
+    <string name="preferences_measurement_units">Measurement Units</string>
+    <string name="preferences_measurement_units_metric">Metric</string>
+    <string name="preferences_measurement_units_statute">Statute</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="com.quantrity"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <queries>
+        <package android:name="com.dsi.ant.server"/>
+        <package android:name="com.sonyericsson.anthal.service"/>
+        <package android:name="com.dsi.ant.service.socket"/>
+        <package android:name="com.dsi.ant.usbservice"/>
+        <package android:name="com.dsi.ant.plugins.antplus"/>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ANT2net"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ANT2net"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SettingsActivity"
+            android:theme="@style/Theme.ANT2net"/>
+        <activity
+            android:name="ru.bartwell.exfilepicker.ui.activity.ExFilePickerActivity"
+            android:theme="@style/ExFilePickerThemeDark"
+            tools:replace="android:theme"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.quantrity.ant2net.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+    </application>
+
+</manifest>

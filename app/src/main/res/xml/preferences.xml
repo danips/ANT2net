@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_local_storage">
+        <Preference
+            android:key="backup_folder"
+            android:title="@string/preferences_folder_in_disk"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_email">
+        <EditTextPreference android:key="gmail_to" android:title="@string/preferences_email_send_to" android:inputType="textEmailAddress"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/menu_settings">
+        <ListPreference
+            android:key="units"
+            android:title="@string/preferences_measurement_units"
+            android:entries="@array/units"
+            android:entryValues="@array/units_value"
+            android:defaultValue="0"/>
+        <Preference
+            android:key="reset"
+            android:title="@string/preferences_delete_all"/>
+        <Preference
+            android:key="forget"
+            android:title="@string/preferences_forget_devices"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="actionbar_battery_abbreviation">Akku</string>
+	<string name="activitylist_contextmenu_delete">Poista</string>
+	<string name="activitylist_contextmenu_reset_upload_status">Nollaa lähetystila</string>
+	<string name="activitylist_contextmenu_select_action">Valitse toiminne</string>
+	<string name="activitylist_contextmenu_upload_to">Lähetä  <xliff:g id="name">%1$s</xliff:g></string>
+	<string name="activitylist_contextmenu_upload_to_all">Lähetä kaikkiin palveluihin</string>
+	<string name="ant_plugins_service">ANT+ Plugins Service</string>
+	<string name="ant_radio_service">ANT Radio Service</string>
+	<string name="ant_usb_service">ANT USB Service</string>
+	<string name="antFsProgressDialog_authenticating">Todennetaan</string>
+	<string name="antFsProgressDialog_downloading">Ladataan</string>
+	<string name="antFsProgressDialog_no_internet">Ei internetyhteyttä. Klikkaa <b><xliff:g id="button">%1$s</xliff:g></b> kun yhteys tarjolla jatkaaksesi lähetystä.</string>
+	<string name="antFsProgressDialog_pairing_feedback">Sinun täytyy sallia paritus. Ole hyvä ja tarkista laitteen näyttö.</string>
+	<string name="antFsProgressDialog_requesting_download">Pyydetään latausta</string>
+	<string name="antFsProgressDialog_requesting_link">Pyydetään yhteyttä</string>
+	<string name="antFsProgressDialog_sending_request">Lähetys pyydetty</string>
+	<string name="antFsProgressDialog_user_pairing_requested">Paritus pyydetty</string>
+	<string name="app_name">ANT2net</string>
+    <string name="garmin_connect_invalid_password">Your Garmin Connect password is no longer valid according to Garmin\'s new policy.\n\nPlease update it.</string>
+	<string name="menu_reset">Nollaa yhteys</string>
+	<string name="menu_settings">Asetukset</string>
+	<string name="msg_first_time">Tämä on ensimmäinen kerta kun käytät tätä sovellusta. Sinun täytyy asettaa kaikki ne tilit jotka haluat tahdistaa.</string>
+	<string name="msg_first_upload">Koska tämä on ensimmäinen kerta kun käytät tätä sovellusta, voi olla että sinun täytyy ladata monia aktiviteetteja jotka olet jo lähettänyt.\nHaluatko lähettää kaikki ladatut aktiviteetit määriteltyihin palveluihin?</string>
+	<string name="msg_problem_ant_permission_disabled">ANT Radio Service has no permission to use ANT hardware. Please, enable it to communicate with your watch.</string>
+	<string name="msg_problem_service_not_found"><b><xliff:g id="name">%1$s</xliff:g></b> ei löydy.\nOle hyvä ja asenna se Google Playsta.</string>
+	<string name="preferences_delete_all">Poista kaikki aktiviteetit</string>
+	<string name="preferences_email">Sähköposti</string>
+	<string name="preferences_email_send_to">Lähetä</string>
+	<string name="preferences_folder_in_disk">Kansio levyllä</string>
+	<string name="preferences_forget_devices">nohda laitteiden</string>
+	<string name="preferences_invalid_email">Virheellinen sähköpostiosoite</string>
+	<string name="preferences_local_storage">Paikallinen taltio</string>
+	<string name="preferences_measurement_units">Mittayksiköt</string>
+	<string name="preferences_measurement_units_metric">Metrijärjestelmä</string>
+	<string name="preferences_measurement_units_statute">Yksikköjärjestelmä (brittiläinen)</string>
+</resources>

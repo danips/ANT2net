@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="actionbar_battery_abbreviation">Batt</string>
+	<string name="activitylist_contextmenu_delete">Slet</string>
+	<string name="activitylist_contextmenu_reset_upload_status">Nulstil upload status</string>
+	<string name="activitylist_contextmenu_select_action">Vælg aktion</string>
+	<string name="activitylist_contextmenu_upload_to">Upload til <xliff:g id="name">%1$s</xliff:g></string>
+	<string name="activitylist_contextmenu_upload_to_all">Upload til alle services</string>
+	<string name="ant_plugins_service">ANT+ Plugins Service</string>
+	<string name="ant_radio_service">ANT Radio Service</string>
+	<string name="ant_usb_service">ANT USB Service</string>
+	<string name="antFsProgressDialog_authenticating">Godkender</string>
+	<string name="antFsProgressDialog_downloading">Downloader</string>
+	<string name="antFsProgressDialog_no_internet">Ingen internetforbindelse. Klik <b><xliff:g id="button">%1$s</xliff:g></b> når det er til stede igen for at forsætte med upload.</string>
+	<string name="antFsProgressDialog_pairing_feedback">Du skal tillade parring. Se venligst din enheds skærm.</string>
+	<string name="antFsProgressDialog_requesting_download">Anmoder om download</string>
+	<string name="antFsProgressDialog_requesting_link">Anmoder om link</string>
+	<string name="antFsProgressDialog_sending_request">Sender anmodning</string>
+	<string name="antFsProgressDialog_user_pairing_requested">Anmodning om parring</string>
+	<string name="app_name">ANT2net</string>
+    <string name="garmin_connect_invalid_password">Dit Garmin Connect password er ikke længere gyldigt ifølge Garmins nye politik.\n\nOpdatér det venligst.</string>
+	<string name="menu_reset">Nulstil forbindelse</string>
+	<string name="menu_settings">Indstillinger</string>
+	<string name="msg_first_time">Det er første gang du bruger denne app. Du skal konfigurere alle de kontoer du ønsker at synkronisere.</string>
+	<string name="msg_first_upload">Da det er første gang du bruger denne app, har du muligvis downloaded mange aktiviteter som du allerede har uploaded.\nVil du uploade alle de downloadede aktiviteter til den konfigurerede service?</string>
+	<string name="msg_problem_ant_permission_disabled">ANT Radio Service has no permission to use ANT hardware. Please, enable it to communicate with your watch.</string>
+	<string name="msg_problem_service_not_found"><b><xliff:g id="name">%1$s</xliff:g></b> ikke fundet.\nInstaller det venligst fra Google Play.</string>
+	<string name="preferences_delete_all">Slet alle aktiviteter</string>
+	<string name="preferences_email">Email</string>
+	<string name="preferences_email_send_to">Send til</string>
+	<string name="preferences_folder_in_disk">Mappe på disk</string>
+	<string name="preferences_forget_devices">Glem enheder</string>
+	<string name="preferences_invalid_email">Ugyldig emailadrersse</string>
+	<string name="preferences_local_storage">Lokalt lager</string>
+	<string name="preferences_measurement_units">Måleenheder</string>
+	<string name="preferences_measurement_units_metric">Meter</string>
+	<string name="preferences_measurement_units_statute">Engelske mål</string>
+</resources>

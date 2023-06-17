@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="actionbar_battery_abbreviation">Batt</string>
+	<string name="activitylist_contextmenu_delete">Удалить</string>
+	<string name="activitylist_contextmenu_reset_upload_status">Сбросить статус \"загружено\"</string>
+	<string name="activitylist_contextmenu_select_action">Выбрать действие</string>
+	<string name="activitylist_contextmenu_upload_to">Загрузить на %1$s</string>
+	<string name="activitylist_contextmenu_upload_to_all">Загрузить на все сервисы</string>
+	<string name="ant_plugins_service">ANT+ Plugins Service</string>
+	<string name="ant_radio_service">ANT Radio Service</string>
+	<string name="ant_usb_service">ANT USB Service</string>
+	<string name="antFsProgressDialog_authenticating">Проверка подлинности</string>
+	<string name="antFsProgressDialog_downloading">Скачивание</string>
+	<string name="antFsProgressDialog_no_internet">No internet connection. Click <b><xliff:g id="button">%1$s</xliff:g></b> when available for proceeding to upload.</string>
+	<string name="antFsProgressDialog_pairing_feedback">Вам надо разрешить сопряжение. Пожалуйста проверьте экран Вашего устройства.</string>
+	<string name="antFsProgressDialog_requesting_download">Запрашивание скачивания</string>
+	<string name="antFsProgressDialog_requesting_link">Requesting link</string>
+	<string name="antFsProgressDialog_sending_request">Sending request</string>
+	<string name="antFsProgressDialog_user_pairing_requested">Сопряжение запрошено</string>
+	<string name="app_name">ANT2net</string>
+    <string name="garmin_connect_invalid_password">Your Garmin Connect password is no longer valid according to Garmin\'s new policy.\n\nPlease update it.</string>
+	<string name="menu_reset">Reset connection</string>
+	<string name="menu_settings">Установки</string>
+	<string name="msg_first_time">This is the first time you use this app. You need to configure all the accounts you want to synchronize.</string>
+	<string name="msg_first_upload">As this is the first time you use this app, you may have downloaded many activities you have already uploaded.\nWould you like to upload all the downloaded activities to the configured services?</string>
+	<string name="msg_problem_service_not_found"><b>%1$s</b> не найден.\nУстановите его пожалуйста через Google Play.</string>
+	<string name="preferences_delete_all">Delete all activities</string>
+	<string name="preferences_email">Электронная почта</string>
+	<string name="preferences_email_send_to">Send to</string>
+	<string name="preferences_folder_in_disk">Папка на диске</string>
+	<string name="preferences_forget_devices">Забыть устройства</string>
+	<string name="preferences_invalid_email">Не правильный электронный адрес</string>
+	<string name="preferences_local_storage">Local storage</string>
+	<string name="preferences_measurement_units">Единицы измерения</string>
+	<string name="preferences_measurement_units_metric">метры</string>
+	<string name="preferences_measurement_units_statute">Английские</string>
+	<string name="msg_problem_ant_permission_disabled">ANT Radio Service has no permission to use ANT hardware. Please, enable it to communicate with your watch.</string>
+</resources>
